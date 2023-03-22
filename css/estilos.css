@@ -1,0 +1,57 @@
+.titulo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size:25px;
+}
+
+.mizoom {
+    transition: transform .2s; 
+}
+ 
+.mizoom:hover {
+    transform: scale(1.05); 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;    
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#menu li a:hover {
+    color: rgb(255, 255, 255);
+    font:bold;
+    background-color: #E6E6E6;
+    text-decoration: none;
+}
+
+#hora {
+    font-family: Arial,sans-serif;
+    text-align: center;
+    color: #000000;   
+    font-weight: bold;
+    font-size: 50px;
+    }
+
+@media print {
+    .main-footer{
+        display: none;
+    }
+
+    #hora{
+        display: none;
+    }
+}
